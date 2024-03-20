@@ -1,0 +1,78 @@
+.userlists{
+    padding: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  input.onlyinputsection {
+    border: 1px solid gray;
+    height: 20px;
+    border-radius: 4px 0px 0px 4px;
+    width: 38%;
+
+}
+  .inputsearch {
+    padding-bottom: 10px;
+}
+  .headers{
+    background-color: lightgrey;
+
+  }
+  button.searchbtn{
+    padding: 4px 4px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    border: 1px solid grey;
+    height: 24px;
+    padding-top: 4px;
+  }
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  th svg {
+    transition: transform 0.2s;
+  }
+  
+  th.active svg {
+    transform: rotate(180deg);
+  }
+  .firstname{
+    color: black;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-top: 1rem;
+  }
+  
+  svg {
+    margin-left: 5px;
+  }
+  

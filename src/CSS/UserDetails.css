@@ -1,0 +1,41 @@
+.headingdiv{
+    display: flex;
+    padding-left: 21px;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.backarrow{
+  color: black;
+}
+.userdetails {
+    padding: 48px;
+    padding-top: 28px;
+  }
+.hrline{
+    background-color: lightgray;
+}
+  .userdetails h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .userdetails p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .userdetails a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  svg.svg-inline--fa.fa-arrow-left {
+    vertical-align: baseline;
+}
+
+  .userdetails a:hover {
+    text-decoration: underline;
+  }
+  
+  
